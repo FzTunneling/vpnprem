@@ -40,7 +40,7 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 
 ### Update akan datang
 ```
-wget https://raw.githubusercontent.com/scriswan/premium/main/files/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/FzTunneling/vpnprem/main/files/update.sh && chmod +x update.sh && ./update.sh
 ```
 ```bash
 apt install haproxy -y
@@ -48,11 +48,11 @@ apt install haproxy -y
 # UP REPO DEBIAN
 <pre><code>apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot</code></pre>
 ### INSTALL SCRIPT 
-<pre><code>sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update -y && apt upgrade -y && apt install -y bzip2 gzip coreutils screen curl unzip && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/scriswan/premium/main/setup-main.sh && chmod +x setup-main.sh && sed -i -e 's/\r$//' setup-main.sh && screen -S setupku ./setup-main.sh</code></pre>
+<pre><code>sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update -y && apt upgrade -y && apt install -y bzip2 gzip coreutils screen curl unzip && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/FzTunneling/vpnprem/main/setup-main.sh && chmod +x setup-main.sh && sed -i -e 's/\r$//' setup-main.sh && screen -S setupku ./setup-main.sh</code></pre>
 ### TESTED ON OS 
 Install bot notif
 ```bash
-wget -O /etc/bot/add_bot.sh https://raw.githubusercontent.com/Riswan481/vpnstore/main/bot/add_bot.sh
+wget -O /etc/bot/add_bot.sh https://raw.githubusercontent.com/FzTunneling/vpnprem/main/bot/add_bot.sh
 ```
 Beri izin
 ```bash
@@ -83,7 +83,7 @@ The "UDP Custom Manager" script enables UDP on a 64-bit VPS, provides functional
 
 1. Download and run the installation script:
     ```sh
-    wget "https://raw.githubusercontent.com/Riswan481/vpnstore/main/install.sh" -O install.sh && chmod +x install.sh && bash install.sh
+    wget "https://raw.githubusercontent.com/FzTunneling/vpnprem/main/install.sh" -O install.sh && chmod +x install.sh && bash install.sh
     ```
     
 
